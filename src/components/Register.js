@@ -39,7 +39,7 @@ const Register = () => {
     }
 
     return (
-        <div className="card d-flex a-center column j-center">
+        <div className="card2 d-flex a-center column j-center">
 
                 <input type="text" ref={emailRef} placeholder="email"/>
                 <input type="text" ref={passRef} placeholder="password"/>

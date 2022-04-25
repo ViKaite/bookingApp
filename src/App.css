@@ -59,7 +59,14 @@ button:hover  {
   padding: 50px;
 }
 .card{
-  height: 400px;
+  height:1000px;
+  width: 350px;
+  border: 2px solid gray;
+  padding: 25px;
+  margin-top: 25px;
+}
+.card2{
+  height:300px;
   width: 250px;
   border: 2px solid gray;
   padding: 25px;

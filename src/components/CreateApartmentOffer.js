@@ -15,7 +15,7 @@ const CreateApartmentOffer = () => {
 
     const nav = useNavigate()
 
-    const {getError, setError, setPost, getPost} = useContext(mainContext)
+    const {getError, setError, setPost, getPost, getSinglePost, setSinglePost} = useContext(mainContext)
 
     //
     // function addPhoto() {
@@ -50,6 +50,7 @@ const CreateApartmentOffer = () => {
             } else {
                 setError(null)
                 setPost(data.posts)
+
                 nav("/")
             }
         })

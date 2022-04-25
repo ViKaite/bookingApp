@@ -38,7 +38,7 @@ const Login = () => {
     }
 
     return (
-        <div className="card d-flex a-center j-center column">
+        <div className="card2 d-flex a-center j-center column">
 
             <input type="text" ref={email} placeholder="email"/>
             <input type="text" ref={password} placeholder="password"/>
